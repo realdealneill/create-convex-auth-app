@@ -1,0 +1,41 @@
+{
+  "name": "create-convex-auth-app",
+  "version": "1.0.0",
+  "description": "A CLI tool to set up a new project with Convex and GitHub authentication",
+  "type": "module",
+  "bin": {
+    "create-convex-auth-app": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "convex",
+    "github",
+    "authentication",
+    "cli",
+    "project-generator"
+  ],
+  "author": "Neill Kinter <github@kinter.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/realdealneill/create-convex-auth-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/realdealneill/create-convex-auth-app/issues"
+  },
+  "homepage": "https://github.com/realdealneill/create-convex-auth-app#readme",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "@jest/globals": "^29.7.0",
+    "execa": "^9.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
